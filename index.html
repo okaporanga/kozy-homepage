@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kozy - A gestão que seu negócio artesanal merece</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="tailwind.config.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="font-sans-serif text-azul-ardosia bg-branco-neve leading-relaxed">
+
+    <header class="bg-branco-neve shadow-md sticky top-0 z-50">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="font-serif text-2xl font-bold text-azul-ardosia flex items-center space-x-2">
+                <a href="https://www.kozy.com.br" class="flex items-center space-x-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chef-hat h-8 w-8 text-secondary-blue" aria-hidden="true"><path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"></path><path d="M6 17h12"></path></svg>
+                    Kozy
+                </a>
+            </div>
+            <ul class="hidden md:flex space-x-8">
+                <li><a href="#features" class="font-bold hover:text-laranja-queimado transition-colors">Funcionalidades</a></li>
+                <li><a href="#how-it-works" class="font-bold hover:text-laranja-queimado transition-colors">Como Funciona</a></li>
+            </ul>
+            <a href="#beta-offer" class="hidden md:block bg-laranja-queimado text-white font-bold py-2 px-4 rounded hover:bg-opacity-90 transition-colors">Acesso Gratuito</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero" class="container mx-auto px-6 py-20 flex flex-col md:flex-row items-center">
+            <div class="md:w-1/2">
+                <h1 class="font-serif text-4xl md:text-5xl font-bold leading-tight">A gestão que seu negócio artesanal merece. Simples, visual e feita para você.</h1>
+                <p class="mt-4 text-lg">Deixe as planilhas no passado. Kozy organiza suas receitas, estoque e encomendas para que você possa focar no que ama: criar.</p>
+                <a href="#beta-offer" class="mt-8 inline-block bg-laranja-queimado text-white font-bold text-lg py-4 px-8 rounded hover:bg-opacity-90 transition-transform transform hover:-translate-y-1">Quero Acesso Gratuito e Exclusivo (Vagas Limitadas)</a>
+                <p class="mt-2 text-sm text-gray-600">Faça parte do nosso grupo de membros fundadores. 100% gratuito, sem cartão de crédito.</p>
+            </div>
+            <div class="md:w-1/2 mt-10 md:mt-0 flex justify-center">
+                <img src="dashboard.png" alt="Dashboard Kozy em um tablet" class="max-w-full md:max-w-md transform rotate-12">
+            </div>
+        </section>
+
+        <section id="pain-points" class="bg-amarelo-manteiga py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="font-serif text-3xl font-bold">Seu talento é criar. A gente sabe que a gestão pode ser um desafio.</h2>
+                <div class="mt-12 grid md:grid-cols-3 gap-12">
+                    <div class="flex flex-col items-center">
+                        <div class="text-5xl text-laranja-queimado mb-4"><i class="fa-solid fa-calculator"></i></div>
+                        <h3 class="font-serif text-2xl font-bold">Custo que não fecha?</h3>
+                        <p class="mt-2">Calcular o preço de cada bolo, salgado ou pão é um quebra-cabeça? Você sente que está trabalhando muito, mas não sabe onde está seu lucro?</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="text-5xl text-laranja-queimado mb-4"><i class="fa-solid fa-box-open"></i></div>
+                        <h3 class="font-serif text-2xl font-bold">Estoque fora de controle?</h3>
+                        <p class="mt-2">Já perdeu uma encomenda porque um ingrediente essencial acabou? O controle em cadernos e planilhas te deixa mais perdido do que ajuda?</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="text-5xl text-laranja-queimado mb-4"><i class="fa-solid fa-clock"></i></div>
+                        <h3 class="font-serif text-2xl font-bold">Tempo que desaparece?</h3>
+                        <p class="mt-2">Horas gastas respondendo orçamentos, organizando pedidos e fazendo listas de compras. Tempo precioso que poderia ser usado para criar e vender mais.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="features" class="py-20">
+            <div class="container mx-auto px-6">
+                <h2 class="font-serif text-3xl font-bold text-center">Kozy: A clareza que seu negócio precisa, em um só lugar.</h2>
+                <div class="mt-16 flex flex-col gap-16">
+                    <div class="flex flex-col md:flex-row items-center gap-12">
+                        <div class="md:w-2/3">
+                            <h3 class="font-serif text-2xl font-bold">Fichas Técnicas Inteligentes</h3>
+                            <h4 class="text-xl font-bold mt-1">Saiba seu lucro exato em cada receita.</h4>
+                            <p class="mt-4">Cadastre seus ingredientes uma vez e crie fichas técnicas para todos os seus produtos. Kozy calcula o custo automaticamente. Vendeu um bolo? Você sabe na hora quanto lucrou.</p>
+                        </div>
+                        <div class="md:w-1/3">
+                            <img src="./ficha_inteligente.025Z.png" alt="Fichas Técnicas Inteligentes no Kozy" class="rounded-lg shadow-xl">
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                        <div class="md:w-2/3">
+                            <h3 class="font-serif text-2xl font-bold">Controle de Estoque que Funciona</h3>
+                            <h4 class="text-xl font-bold mt-1">Produza e venda sem surpresas.</h4>
+                            <p class="mt-4">Ao registrar uma produção, Kozy dá baixa nos ingredientes e adiciona o produto final ao estoque. Configure alertas de estoque mínimo e gere sua lista de compras com um clique.</p>
+                        </div>
+                        <div class="md:w-1/3">
+                            <img src="./controle_estoque.048Z.png" alt="Controle de Estoque no Kozy" class="rounded-lg shadow-xl">
+                        </div>
+                    </div>
+                    <div class="flex flex-col md:flex-row items-center gap-12">
+                        <div class="md:w-2/3">
+                            <h3 class="font-serif text-2xl font-bold">Gestão de Encomendas sem Estresse</h3>
+                            <h4 class="text-xl font-bold mt-1">Organize seus pedidos do orçamento à entrega.</h4>
+                            <p class="mt-4">Registre todas as suas encomendas, envie orçamentos profissionais e acompanhe o status de cada pedido. Chega de se perder em mensagens de WhatsApp e anotações.</p>
+                        </div>
+                        <div class="md:w-1/3">
+                            <img src="./gestao_encomendas.145Z.png" alt="Gestão de Encomendas no Kozy" class="rounded-lg shadow-xl">
+                        </div>
+                    </div>
+                     <div class="flex flex-col md:flex-row-reverse items-center gap-12">
+                        <div class="md:w-2/3">
+                            <h3 class="font-serif text-2xl font-bold">Relatórios Visuais e Simples</h3>
+                            <h4 class="text-xl font-bold mt-1">Tome decisões com confiança.</h4>
+                            <p class="mt-4">Entenda rapidamente quais produtos vendem mais, qual sua lucratividade real e onde estão suas perdas. Gráficos simples para quem não tem tempo a perder.</p>
+                        </div>
+                        <div class="md:w-1/3">
+                            <img src="./relatorios.492Z.png" alt="Relatórios Visuais no Kozy" class="rounded-lg shadow-xl">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="bg-cinza-neutro py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="font-serif text-3xl font-bold">Comece a se organizar em minutos.</h2>
+                <div class="mt-12 grid md:grid-cols-3 gap-12">
+                    <div class="flex flex-col items-center">
+                        <div class="text-4xl font-bold text-laranja-queimado mb-2">1</div>
+                        <h3 class="font-serif text-xl font-bold">Cadastre seus Ingredientes</h3>
+                        <p class="mt-2">Crie sua lista de matérias-primas com seus custos.</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="text-4xl font-bold text-laranja-queimado mb-2">2</div>
+                        <h3 class="font-serif text-xl font-bold">Monte suas Receitas</h3>
+                        <p class="mt-2">Combine os ingredientes para criar as fichas técnicas dos seus produtos.</p>
+                    </div>
+                    <div class="flex flex-col items-center">
+                        <div class="text-4xl font-bold text-laranja-queimado mb-2">3</div>
+                        <h3 class="font-serif text-xl font-bold">Registre suas Vendas</h3>
+                        <p class="mt-2">Veja a mágica acontecer com o estoque e os custos atualizados em tempo real.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="beta-offer" class="bg-verde-salvia text-white py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="font-serif text-3xl font-bold">Seja um Membro Fundador Kozy.</h2>
+                <p class="mt-4 text-lg max-w-3xl mx-auto">Estamos construindo a ferramenta de gestão perfeita para o produtor artesanal, e queremos sua ajuda.</p>
+                <p class="mt-4 max-w-3xl mx-auto">Ao entrar para o nosso programa beta, você não apenas ganha acesso <strong class="font-bold">100% gratuito</strong> a todas as funcionalidades de Kozy. Você se torna parte de um grupo exclusivo de parceiros que irá moldar o futuro da ferramenta com suas ideias e feedback. Sua voz é fundamental para nós.</p>
+                <ul class="mt-8 inline-block text-left space-y-2">
+                    <li><i class="fa-solid fa-check mr-2"></i>Acesso gratuito vitalício à versão atual.</li>
+                    <li><i class="fa-solid fa-check mr-2"></i>Influência direta no desenvolvimento de novas funcionalidades.</li>
+                    <li><i class="fa-solid fa-check mr-2"></i>Suporte prioritário diretamente com nossa equipe.</li>
+                    <li><i class="fa-solid fa-check mr-2"></i>Vagas estritamente limitadas para garantir uma colaboração próxima.</li>
+                </ul>
+                <div class="mt-8">
+                    <a href="#" class="inline-block bg-laranja-queimado text-white font-bold text-lg py-4 px-8 rounded hover:bg-opacity-90 transition-transform transform hover:-translate-y-1">Garantir minha Vaga de Membro Fundador</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-us" class="py-20">
+            <div class="container mx-auto px-6 flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/3 flex justify-center">
+                    <img src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2070&auto=format&fit=crop" alt="Equipe Okaporanga" class="rounded-full w-64 h-64 object-cover">
+                </div>
+                <div class="md:w-2/3 text-center md:text-left">
+                    <h2 class="font-serif text-3xl font-bold">De artesãos da tecnologia, para artesãos da comida.</h2>
+                    <p class="mt-4 italic">"Nós da Okaporanga somos apaixonados por usar a tecnologia para resolver problemas reais. Vimos amigos e familiares, donos de confeitarias e pequenas cozinhas, criando produtos incríveis, mas sufocados pela desorganização. Eles perdiam tempo, dinheiro e a alegria do ofício. Kozy nasceu dessa observação. Não é apenas mais um sistema. É a nossa missão de entregar a tranquilidade e o controle que todo pequeno produtor merece para poder crescer. Estamos nisso com você."</p>
+                    <p class="mt-4 font-bold">- Equipe <a href="https://www.okaporanga.com.br" target="_blank" class="text-violet-600 hover:text-violet-800 transition-colors">Okaporanga</a></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="final-cta" class="bg-cinza-neutro py-20">
+            <div class="container mx-auto px-6 text-center">
+                <h2 class="font-serif text-4xl font-bold">Pronto para transformar a gestão do seu negócio?</h2>
+                <p class="mt-4 text-lg">Dê o primeiro passo para ter mais controle, mais lucro e mais tempo para criar. O acesso é gratuito e as vagas são limitadas.</p>
+                <a href="#beta-offer" class="mt-8 inline-block bg-laranja-queimado text-white font-bold text-lg py-4 px-8 rounded hover:bg-opacity-90 transition-transform transform hover:-translate-y-1">Quero meu Acesso Gratuito Agora</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-azul-ardosia text-white py-6">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2024 Kozy. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

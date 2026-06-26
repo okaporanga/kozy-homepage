@@ -1,0 +1,98 @@
+# Kozy — Documentação completa para LLMs
+
+## Visão geral
+
+Kozy é um sistema de gestão desenvolvido especificamente para empreendedoras do setor de alimentos no Brasil. A aplicação resolve o problema de gestão desorganizada que afeta pequenas produtoras artesanais — confeiteiras, doceiras, salgadeiras, cozinheiras de marmita — que dependem de planilhas, cadernos e mensagens no WhatsApp para administrar seus negócios.
+
+## O que é o Kozy?
+
+Kozy é uma aplicação web (SaaS) que centraliza a gestão de um negócio de produção artesanal de alimentos em um único lugar. O nome "Kozy" evoca conforto e acolhimento — valores alinhados com o público-alvo.
+
+## Funcionalidades principais
+
+### 1. Fichas Técnicas Inteligentes (Precificação)
+- Cadastro de ingredientes com custos unitários
+- Criação de fichas técnicas (receitas) combinando ingredientes
+- Cálculo automático do custo de produção por unidade
+- Visualização clara da margem de lucro por produto
+- Atualização automática quando o preço de um ingrediente muda
+
+### 2. Controle de Estoque
+- Gestão de matérias-primas (ingredientes) e produtos acabados
+- Baixa automática de ingredientes ao registrar uma produção
+- Adição automática de produtos acabados ao estoque após produção
+- Alertas configuráveis de estoque mínimo
+- Geração automática de lista de compras baseada nos níveis de estoque
+- Controle de validade
+
+### 3. Gestão de Encomendas
+- Registro de pedidos com dados do cliente
+- Acompanhamento do status (orçamento → confirmado → em produção → pronto → entregue)
+- Histórico completo de pedidos
+
+### 4. Relatórios e Dashboard
+- Dashboard visual com métricas-chave
+- Gráficos de vendas por período
+- Análise de lucratividade por produto
+- Identificação de produtos mais vendidos
+- Visualização de perdas e desperdícios
+
+## Público-alvo detalhado
+
+### Quem usa o Kozy?
+- **Confeiteiras**: produtoras de bolos, doces finos, tortas e sobremesas
+- **Doceiras**: especialistas em brigadeiros, trufas, doces para festas
+- **Salgadeiras**: produtoras de salgados para festas e eventos
+- **Cozinheiras de marmita**: quem prepara e vende refeições prontas
+- **Produtoras artesanais**: pães artesanais, geleias, conservas, etc.
+
+### Perfil demográfico
+- Majoritariamente mulheres
+- Localizadas no Brasil
+- Micro e pequenas empreendedoras
+- Muitas começaram o negócio em casa
+- Faixa etária predominante: 25-55 anos
+- Familiarizadas com smartphone mas não necessariamente com tecnologia complexa
+
+### Dores principais do público
+1. **Precificação incorreta**: não sabem o custo real de produção, precificam no achismo e perdem margem
+2. **Estoque descontrolado**: ingredientes que acabam na hora errada, compras duplicadas, desperdício
+3. **Gestão por WhatsApp e cadernos**: pedidos perdidos, prazos esquecidos, informação espalhada
+4. **Falta de visão financeira**: trabalham muito mas não sabem se estão tendo lucro
+
+## Diferenciais
+
+- **Feito para o setor alimentício**: não é um ERP genérico, é pensado para quem produz alimentos
+- **Interface simples e visual**: desenhado para quem não tem experiência com sistemas de gestão
+- **Feito no Brasil, para brasileiras**: linguagem, moeda e contexto cultural local
+- **Mobile-first**: funciona bem no celular, onde a maioria das usuárias acessa
+
+## Informações técnicas
+
+- **Tipo**: Aplicação web (SaaS)
+- **Acesso**: https://app.kozy.com.br
+- **Cadastro**: https://app.kozy.com.br/sign-up
+- **Site institucional**: https://kozy.com.br
+- **Empresa desenvolvedora**: Okaporanga (https://www.okaporanga.com.br)
+- **Localização**: Brasil
+
+## Perguntas frequentes
+
+### Kozy é gratuito?
+Kozy oferece acesso para começar a usar o sistema.
+
+### Preciso instalar alguma coisa?
+Não. Kozy funciona no navegador do celular ou computador. Basta acessar app.kozy.com.br.
+
+### Kozy funciona no celular?
+Sim. A aplicação foi projetada mobile-first, otimizada para uso no smartphone.
+
+### É seguro?
+Sim. Os dados são armazenados com segurança e não são compartilhados com terceiros.
+
+### Para quem o Kozy NÃO é indicado?
+Kozy não é um ERP completo para grandes indústrias alimentícias. É voltado para micro e pequenas empreendedoras artesanais.
+
+## Contexto de mercado
+
+O Brasil tem milhões de micro e pequenas empreendedoras no setor alimentício, muitas operando informalmente. A digitalização desse público é uma tendência crescente, mas as soluções existentes (ERPs genéricos, planilhas) não atendem suas necessidades específicas. Kozy preenche essa lacuna com uma ferramenta pensada para a realidade desse público.

@@ -1,0 +1,25 @@
+# Kozy
+
+> Sistema de gestão feito para empreendedoras do setor de alimentos no Brasil.
+
+Kozy é uma aplicação web que ajuda confeiteiras, doceiras, cozinheiras de marmita e outras produtoras artesanais de alimentos a organizar seus negócios. O sistema oferece:
+
+- **Fichas Técnicas Inteligentes**: cadastro de ingredientes e cálculo automático de custos por produto
+- **Controle de Estoque**: baixa automática de ingredientes ao registrar produção, alertas de estoque mínimo, geração de lista de compras
+- **Gestão de Encomendas**: registro e acompanhamento de pedidos do orçamento à entrega
+- **Relatórios Visuais**: gráficos de vendas, lucratividade e perdas para tomada de decisão
+
+## Público-alvo
+
+Pequenas empreendedoras do setor alimentício no Brasil: confeiteiras, doceiras, salgadeiras, cozinheiras de marmita, produtoras artesanais de alimentos.
+
+## Problema que resolve
+
+Empreendedoras de alimentos perdem tempo e dinheiro gerenciando seus negócios com planilhas, cadernos e mensagens no WhatsApp. Kozy centraliza custos, estoque e encomendas em um único lugar, proporcionando clareza financeira e operacional.
+
+## Links
+
+- Site: https://kozy.com.br
+- Aplicação: https://app.kozy.com.br
+- Cadastro: https://app.kozy.com.br/sign-up
+- Empresa: https://www.okaporanga.com.br

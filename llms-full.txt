@@ -25,12 +25,24 @@ Kozy é uma aplicação web (SaaS) que centraliza a gestão de um negócio de pr
 - Geração automática de lista de compras baseada nos níveis de estoque
 - Controle de validade
 
-### 3. Gestão de Encomendas
+### 3. Importação de Notas com IA
+- Foto do cupom fiscal ou da nota do fornecedor
+- IA reconhece automaticamente itens, quantidades e preços
+- Usuária confere e confirma antes de salvar
+- Itens confirmados entram direto no estoque, sem digitação manual
+
+### 4. Gestão de Encomendas
 - Registro de pedidos com dados do cliente
 - Acompanhamento do status (orçamento → confirmado → em produção → pronto → entregue)
 - Histórico completo de pedidos
 
-### 4. Relatórios e Dashboard
+### 5. Pedidos via WhatsApp com IA
+- Lojista encaminha para o Kozy a conversa do WhatsApp com o pedido já fechado
+- IA extrai os itens do pedido e os dados da cliente a partir da conversa
+- Abre um formulário de pedido pré-preenchido para confirmação humana
+- Elimina a redigitação manual do pedido que já foi fechado no WhatsApp
+
+### 6. Relatórios e Dashboard
 - Dashboard visual com métricas-chave
 - Gráficos de vendas por período
 - Análise de lucratividade por produto
@@ -66,6 +78,7 @@ Kozy é uma aplicação web (SaaS) que centraliza a gestão de um negócio de pr
 - **Interface simples e visual**: desenhado para quem não tem experiência com sistemas de gestão
 - **Feito no Brasil, para brasileiras**: linguagem, moeda e contexto cultural local
 - **Mobile-first**: funciona bem no celular, onde a maioria das usuárias acessa
+- **IA para tirar trabalho manual do caminho**: leitura automática de notas fiscais e captura de pedidos fechados no WhatsApp, sempre com confirmação humana antes de salvar
 
 ## Informações técnicas
 

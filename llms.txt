@@ -6,7 +6,9 @@ Kozy é uma aplicação web que ajuda confeiteiras, doceiras, cozinheiras de mar
 
 - **Fichas Técnicas Inteligentes**: cadastro de ingredientes e cálculo automático de custos por produto
 - **Controle de Estoque**: baixa automática de ingredientes ao registrar produção, alertas de estoque mínimo, geração de lista de compras
+- **Importação de Notas com IA**: foto do cupom ou nota do fornecedor é lida por IA e os itens entram direto no estoque, sem digitação
 - **Gestão de Encomendas**: registro e acompanhamento de pedidos do orçamento à entrega
+- **Pedidos via WhatsApp com IA**: conversa de pedido fechado no WhatsApp é encaminhada para o Kozy, que usa IA para extrair itens e cliente e abrir o pedido pronto para confirmação
 - **Relatórios Visuais**: gráficos de vendas, lucratividade e perdas para tomada de decisão
 
 ## Público-alvo

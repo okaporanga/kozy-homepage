@@ -8,6 +8,11 @@
     <meta name="keywords" content="gestão confeitaria, sistema para doceira, controle de estoque alimentos, ficha técnica receita, gestão cozinha artesanal, precificação de bolos, organizar encomendas, pedidos por whatsapp com ia, importar nota fiscal para estoque">
     <link rel="canonical" href="https://kozy.com.br">
 
+    <!-- Favicon (logo do app) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/kozy-favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="assets/images/kozy-icon-192.png">
+    <link rel="apple-touch-icon" href="assets/images/kozy-apple-icon.png">
+
     <!-- Open Graph -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://kozy.com.br">
@@ -58,7 +63,7 @@
         "@type": "Organization",
         "name": "Kozy",
         "url": "https://kozy.com.br",
-        "logo": "https://kozy.com.br/assets/images/dashboard.png",
+        "logo": "https://kozy.com.br/assets/images/kozy-icon-512.png",
         "description": "Kozy é o sistema de gestão feito para quem produz e vende alimentos.",
         "parentOrganization": {
             "@type": "Organization",
@@ -114,9 +119,25 @@
     <header class="bg-creme/95 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-cinza-200/50">
         <nav class="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
             <a href="https://kozy.com.br" class="flex items-center gap-2 text-charcoal" aria-label="Kozy - Página inicial">
-                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-terracota" aria-hidden="true">
-                    <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"/>
-                    <path d="M6 17h12"/>
+                <svg width="32" height="32" viewBox="0 0 100 100" aria-hidden="true">
+                    <defs>
+                        <radialGradient id="logo-header-bg" cx="32%" cy="26%" r="85%">
+                            <stop offset="0%" stop-color="hsl(24,88%,56%)"/>
+                            <stop offset="55%" stop-color="hsl(20,85%,48%)"/>
+                            <stop offset="100%" stop-color="hsl(16,78%,40%)"/>
+                        </radialGradient>
+                        <linearGradient id="logo-header-flame" x1="0" y1="0" x2="0" y2="1">
+                            <stop offset="0%" stop-color="#fff7ef"/>
+                            <stop offset="100%" stop-color="#ffffff"/>
+                        </linearGradient>
+                        <radialGradient id="logo-header-glow" cx="50%" cy="70%" r="50%">
+                            <stop offset="0%" stop-color="#ffd9ab" stop-opacity="0.55"/>
+                            <stop offset="100%" stop-color="#ffd9ab" stop-opacity="0"/>
+                        </radialGradient>
+                    </defs>
+                    <rect width="100" height="100" rx="22" fill="url(#logo-header-bg)"/>
+                    <ellipse cx="50" cy="66" rx="26" ry="18" fill="url(#logo-header-glow)"/>
+                    <path d="M50,14 C57,24 65,33 68,44 C70,50 70,55 70,60 C70,73 61,84 50,84 C39,84 30,73 30,60 C30,55 30,50 32,44 C35,33 43,24 50,14 Z" fill="url(#logo-header-flame)"/>
                 </svg>
                 <span class="font-serif text-2xl">Kozy</span>
             </a>
@@ -395,9 +416,25 @@
             <div class="flex flex-col md:flex-row justify-between items-center gap-8">
                 <div class="flex flex-col items-center md:items-start gap-3">
                     <a href="https://kozy.com.br" class="flex items-center gap-2" aria-label="Kozy">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="text-terracota" aria-hidden="true">
-                            <path d="M17 21a1 1 0 0 0 1-1v-5.35c0-.457.316-.844.727-1.041a4 4 0 0 0-2.134-7.589 5 5 0 0 0-9.186 0 4 4 0 0 0-2.134 7.588c.411.198.727.585.727 1.041V20a1 1 0 0 0 1 1Z"/>
-                            <path d="M6 17h12"/>
+                        <svg width="28" height="28" viewBox="0 0 100 100" aria-hidden="true">
+                            <defs>
+                                <radialGradient id="logo-footer-bg" cx="32%" cy="26%" r="85%">
+                                    <stop offset="0%" stop-color="hsl(24,88%,56%)"/>
+                                    <stop offset="55%" stop-color="hsl(20,85%,48%)"/>
+                                    <stop offset="100%" stop-color="hsl(16,78%,40%)"/>
+                                </radialGradient>
+                                <linearGradient id="logo-footer-flame" x1="0" y1="0" x2="0" y2="1">
+                                    <stop offset="0%" stop-color="#fff7ef"/>
+                                    <stop offset="100%" stop-color="#ffffff"/>
+                                </linearGradient>
+                                <radialGradient id="logo-footer-glow" cx="50%" cy="70%" r="50%">
+                                    <stop offset="0%" stop-color="#ffd9ab" stop-opacity="0.55"/>
+                                    <stop offset="100%" stop-color="#ffd9ab" stop-opacity="0"/>
+                                </radialGradient>
+                            </defs>
+                            <rect width="100" height="100" rx="22" fill="url(#logo-footer-bg)"/>
+                            <ellipse cx="50" cy="66" rx="26" ry="18" fill="url(#logo-footer-glow)"/>
+                            <path d="M50,14 C57,24 65,33 68,44 C70,50 70,55 70,60 C70,73 61,84 50,84 C39,84 30,73 30,60 C30,55 30,50 32,44 C35,33 43,24 50,14 Z" fill="url(#logo-footer-flame)"/>
                         </svg>
                         <span class="font-serif text-xl">Kozy</span>
                     </a>

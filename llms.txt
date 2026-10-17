@@ -4,11 +4,11 @@
 
 Kozy é uma aplicação web que ajuda confeiteiras, doceiras, cozinheiras de marmita e outras produtoras artesanais de alimentos a organizar seus negócios. O sistema oferece:
 
-- **Fichas Técnicas Inteligentes**: cadastro de ingredientes e cálculo automático de custos por produto
+- **Fichas Técnicas e Preço Sugerido**: cálculo automático do custo por produto e sugestão de preço de venda com custos fixos, mão de obra, taxas, impostos e margem
 - **Controle de Estoque**: baixa automática de ingredientes ao registrar produção, alertas de estoque mínimo, geração de lista de compras
 - **Importação de Notas com IA**: foto do cupom ou nota do fornecedor é lida por IA e os itens entram direto no estoque, sem digitação
 - **Gestão de Encomendas**: registro e acompanhamento de pedidos do orçamento à entrega
-- **Pedidos via WhatsApp com IA**: conversa de pedido fechado no WhatsApp é encaminhada para o Kozy, que usa IA para extrair itens e cliente e abrir o pedido pronto para confirmação
+- **Pedidos via WhatsApp com IA** (em breve, plano Pro): conversa de pedido fechado no WhatsApp é encaminhada para o Kozy, que usa IA para extrair itens e cliente e abrir o pedido pronto para confirmação
 - **Relatórios Visuais**: gráficos de vendas, lucratividade e perdas para tomada de decisão
 
 ## Público-alvo
@@ -19,9 +19,16 @@ Pequenas empreendedoras do setor alimentício no Brasil: confeiteiras, doceiras,
 
 Empreendedoras de alimentos perdem tempo e dinheiro gerenciando seus negócios com planilhas, cadernos e mensagens no WhatsApp. Kozy centraliza custos, estoque e encomendas em um único lugar, proporcionando clareza financeira e operacional.
 
+## Preços
+
+- Iniciante: R$ 39/mês (gestão completa + importação de nota fiscal por IA)
+- Pro: R$ 69/mês (em breve; inclui catálogo público e pedidos via WhatsApp)
+- Pro Anual: R$ 745,20/ano (em breve)
+- 7 dias grátis; a primeira cobrança só acontece no 8º dia. Pagamento no cartão de crédito.
+
 ## Links
 
 - Site: https://kozy.com.br
 - Aplicação: https://app.kozy.com.br
-- Cadastro: https://app.kozy.com.br/sign-up
+- Cadastro: https://app.kozy.com.br/auth/sign-up
 - Empresa: https://www.okaporanga.com.br

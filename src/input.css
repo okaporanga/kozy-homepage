@@ -34,6 +34,10 @@
     line-height: 1.7;
   }
 
+  section[id] {
+    scroll-margin-top: 5rem;
+  }
+
   h1, h2, h3, h4 {
     font-family: var(--font-serif);
     line-height: 1.2;
@@ -119,6 +123,80 @@
     width: 100%;
     height: auto;
     display: block;
+  }
+
+  .plan-card {
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+    background-color: var(--color-creme);
+    border: 1px solid var(--color-cinza-200);
+    border-radius: 1rem;
+    padding: 2rem;
+  }
+
+  .plan-card--highlight {
+    background-color: var(--color-branco);
+    border: 2px solid var(--color-terracota);
+    box-shadow: 0 8px 24px rgba(232, 101, 74, 0.12);
+  }
+
+  .plan-features {
+    margin: 1.5rem 0 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    color: var(--color-charcoal-light);
+  }
+
+  .plan-features li {
+    position: relative;
+    padding-left: 1.6rem;
+  }
+
+  .plan-features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: var(--color-oliva);
+    font-weight: 700;
+  }
+
+  .plan-soon {
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.15rem 0.6rem;
+    border-radius: 9999px;
+    background-color: var(--color-cinza-200);
+    color: var(--color-charcoal-light);
+  }
+
+  .plan-disabled {
+    display: flex;
+    justify-content: center;
+    padding: 1rem 2rem;
+    border-radius: 0.5rem;
+    border: 2px dashed var(--color-cinza-200);
+    color: var(--color-cinza-600);
+    font-weight: 600;
+  }
+
+  .faq-item {
+    background-color: var(--color-branco);
+    border: 1px solid var(--color-cinza-200);
+    border-radius: 0.75rem;
+    padding: 1rem 1.25rem;
+  }
+
+  .faq-item summary {
+    cursor: pointer;
+    font-weight: 600;
+    list-style-position: outside;
+  }
+
+  .faq-item p {
+    margin-top: 0.75rem;
+    color: var(--color-charcoal-light);
   }
 
   .step-number {

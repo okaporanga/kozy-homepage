@@ -22,6 +22,18 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Carry the landing's UTM to the sign-up, so attribution survives blocked cookies.
+    const utm = new URLSearchParams(
+        [...new URLSearchParams(window.location.search)].filter(([key]) => key.startsWith('utm_'))
+    );
+    if (utm.toString()) {
+        document.querySelectorAll('a[href^="https://app.kozy.com.br/auth/sign-up"]').forEach(link => {
+            const url = new URL(link.href);
+            utm.forEach((value, key) => url.searchParams.set(key, value));
+            link.href = url.toString();
+        });
+    }
+
     const header = document.querySelector('header');
     let lastScroll = 0;
 

@@ -10,12 +10,14 @@ Kozy é uma aplicação web (SaaS) que centraliza a gestão de um negócio de pr
 
 ## Funcionalidades principais
 
-### 1. Fichas Técnicas Inteligentes (Precificação)
+### 1. Fichas Técnicas e Preço Sugerido (Precificação)
 - Cadastro de ingredientes com custos unitários
 - Criação de fichas técnicas (receitas) combinando ingredientes
 - Cálculo automático do custo de produção por unidade
 - Visualização clara da margem de lucro por produto
 - Atualização automática quando o preço de um ingrediente muda
+- Preço de venda sugerido considerando embalagem, tempo de trabalho, custos fixos, taxas de cartão, impostos e margem de lucro
+- Ponto de equilíbrio do negócio
 
 ### 2. Controle de Estoque
 - Gestão de matérias-primas (ingredientes) e produtos acabados
@@ -36,7 +38,7 @@ Kozy é uma aplicação web (SaaS) que centraliza a gestão de um negócio de pr
 - Acompanhamento do status (orçamento → confirmado → em produção → pronto → entregue)
 - Histórico completo de pedidos
 
-### 5. Pedidos via WhatsApp com IA
+### 5. Pedidos via WhatsApp com IA (em breve, plano Pro)
 - Lojista encaminha para o Kozy a conversa do WhatsApp com o pedido já fechado
 - IA extrai os itens do pedido e os dados da cliente a partir da conversa
 - Abre um formulário de pedido pré-preenchido para confirmação humana
@@ -84,15 +86,15 @@ Kozy é uma aplicação web (SaaS) que centraliza a gestão de um negócio de pr
 
 - **Tipo**: Aplicação web (SaaS)
 - **Acesso**: https://app.kozy.com.br
-- **Cadastro**: https://app.kozy.com.br/sign-up
+- **Cadastro**: https://app.kozy.com.br/auth/sign-up
 - **Site institucional**: https://kozy.com.br
 - **Empresa desenvolvedora**: Okaporanga (https://www.okaporanga.com.br)
 - **Localização**: Brasil
 
 ## Perguntas frequentes
 
-### Kozy é gratuito?
-Kozy oferece acesso para começar a usar o sistema.
+### Quanto custa o Kozy?
+Plano Iniciante: R$ 39/mês. Plano Pro (em breve): R$ 69/mês ou R$ 745,20/ano. Todos com 7 dias grátis: a primeira cobrança só acontece no 8º dia, e quem cancela antes não paga nada. Pagamento no cartão de crédito, via Asaas.
 
 ### Preciso instalar alguma coisa?
 Não. Kozy funciona no navegador do celular ou computador. Basta acessar app.kozy.com.br.
@@ -101,7 +103,7 @@ Não. Kozy funciona no navegador do celular ou computador. Basta acessar app.koz
 Sim. A aplicação foi projetada mobile-first, otimizada para uso no smartphone.
 
 ### É seguro?
-Sim. Os dados são armazenados com segurança e não são compartilhados com terceiros.
+Os dados ficam protegidos e são usados apenas para operar o Kozy, conforme a Política de Privacidade (https://app.kozy.com.br/legal/privacidade).
 
 ### Para quem o Kozy NÃO é indicado?
 Kozy não é um ERP completo para grandes indústrias alimentícias. É voltado para micro e pequenas empreendedoras artesanais.

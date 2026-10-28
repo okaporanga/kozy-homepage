@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de preço para confeitaria grátis | Kozy</title>
+    <meta name="description" content="Calcule quanto cobrar por doces e bolos com o método do Sebrae: ingredientes, embalagem, seu tempo, custos fixos, DAS e margem. Grátis e sem cadastro.">
+    <link rel="canonical" href="https://kozy.com.br/calculadora-de-preco/">
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/kozy-favicon-32.png">
+    <link rel="icon" type="image/png" sizes="192x192" href="/assets/images/kozy-icon-192.png">
+    <link rel="apple-touch-icon" href="/assets/images/kozy-apple-icon.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://kozy.com.br/calculadora-de-preco/">
+    <meta property="og:title" content="Calculadora de preço para confeitaria: quanto cobrar pelo seu doce?">
+    <meta property="og:description" content="Grátis e sem cadastro. Inclui ingredientes, embalagem, seu tempo, custos fixos, DAS do MEI e margem de lucro, pelo método do Sebrae.">
+    <meta property="og:image" content="https://kozy.com.br/assets/images/og-calculadora.png">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:locale" content="pt_BR">
+    <meta property="og:site_name" content="Kozy">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Calculadora de preço para confeitaria: quanto cobrar pelo seu doce?">
+    <meta name="twitter:description" content="Grátis e sem cadastro, pelo método do Sebrae.">
+    <meta name="twitter:image" content="https://kozy.com.br/assets/images/og-calculadora.png">
+
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "Calculadora de preço para confeitaria",
+        "url": "https://kozy.com.br/calculadora-de-preco/",
+        "applicationCategory": "FinanceApplication",
+        "operatingSystem": "Web",
+        "inLanguage": "pt-BR",
+        "isAccessibleForFree": true,
+        "description": "Calcula o preço de venda de doces, bolos e outros produtos artesanais pelo método de markup do Sebrae: ingredientes, embalagem, mão de obra, custos fixos, DAS do MEI, taxas e margem de lucro.",
+        "offers": { "@type": "Offer", "price": "0", "priceCurrency": "BRL" },
+        "provider": { "@type": "Organization", "name": "Kozy", "url": "https://kozy.com.br/" }
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Início", "item": "https://kozy.com.br/" },
+            { "@type": "ListItem", "position": 2, "name": "Calculadora de preço", "item": "https://kozy.com.br/calculadora-de-preco/" }
+        ]
+    }
+    </script>
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "A calculadora é gratuita?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Sim, e não precisa de cadastro. O cálculo é feito no seu próprio aparelho: os números que você digita não são enviados para a Kozy." }
+            },
+            {
+                "@type": "Question",
+                "name": "Por que meu salário entra no preço?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Porque o seu tempo é custo. O Sebrae orienta incluir o pagamento pelo seu trabalho no preço. A calculadora transforma quanto você quer ganhar por mês em valor por hora e cobra o tempo que cada unidade leva." }
+            },
+            {
+                "@type": "Question",
+                "name": "Sou MEI. Como entra o imposto?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Para o MEI, o imposto é o DAS, um valor fixo por mês. Por isso ele entra junto com os custos fixos, e não como porcentagem sobre a venda. O valor muda todo ano e depende da atividade: confira no PGMEI." }
+            },
+            {
+                "@type": "Question",
+                "name": "Qual margem de lucro devo usar?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Não existe um número certo: o Sebrae não define uma margem padrão. A margem é o que sobra para o negócio crescer e enfrentar imprevistos. Defina a sua e compare o preço final com o praticado na sua região." }
+            },
+            {
+                "@type": "Question",
+                "name": "Ainda não vendo nada. O que coloco em faturamento?",
+                "acceptedAnswer": { "@type": "Answer", "text": "Simule quanto você espera vender por mês. Se a expectativa for baixa demais para pagar os custos fixos, a calculadora avisa." }
+            },
+            {
+                "@type": "Question",
+                "name": "Qual a diferença entre markup e margem?",
+                "acceptedAnswer": { "@type": "Answer", "text": "A margem é a parte do preço que vira lucro. O markup é o número pelo qual você multiplica o custo para chegar ao preço. Uma margem de 15% não significa somar 15% ao custo: o markup precisa cobrir também custos fixos, impostos e taxas." }
+            }
+        ]
+    }
+    </script>
+
+    <script src="/analytics.js" defer></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-creme/95 backdrop-blur-sm fixed top-0 left-0 right-0 z-50 border-b border-cinza-200/50">
+        <nav class="max-w-6xl mx-auto px-5 py-4 flex justify-between items-center">
+            <a href="/" class="flex items-center gap-2 text-charcoal" aria-label="Kozy - Página inicial">
+                <img src="/assets/images/kozy-icon-192.png" alt="" width="32" height="32" class="rounded-lg">
+                <span class="font-serif text-2xl">Kozy</span>
+            </a>
+
+            <ul class="hidden md:flex items-center gap-8">
+                <li><a href="/#funcionalidades" class="text-charcoal-light hover:text-terracota transition-colors font-medium">Funcionalidades</a></li>
+                <li><a href="/#precos" class="text-charcoal-light hover:text-terracota transition-colors font-medium">Preços</a></li>
+                <li><a href="https://app.kozy.com.br/auth/sign-up?utm_source=calculator&amp;utm_medium=cta" class="btn-primary !py-2.5 !px-5 !text-base">Testar 7 dias grátis</a></li>
+            </ul>
+
+            <button id="menu-toggle" class="md:hidden p-2 text-charcoal" aria-label="Abrir menu" aria-expanded="false">
+                <svg id="icon-menu" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/>
+                </svg>
+                <svg id="icon-close" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="hidden">
+                    <line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/>
+                </svg>
+            </button>
+        </nav>
+        <div id="mobile-menu" class="hidden md:hidden border-t border-cinza-200/50 bg-creme">
+            <div class="px-5 py-4 flex flex-col gap-3">
+                <a href="/#funcionalidades" class="py-2 text-charcoal-light hover:text-terracota transition-colors font-medium">Funcionalidades</a>
+                <a href="/#precos" class="py-2 text-charcoal-light hover:text-terracota transition-colors font-medium">Preços</a>
+                <a href="https://app.kozy.com.br/auth/sign-up?utm_source=calculator&amp;utm_medium=cta" class="btn-primary text-center mt-2">Testar 7 dias grátis</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="pt-24 md:pt-28">
+        <!-- Hero -->
+        <section class="max-w-6xl mx-auto px-5">
+            <nav aria-label="Trilha de navegação" class="text-sm text-cinza-600">
+                <ol class="flex gap-2">
+                    <li><a href="/" class="hover:text-terracota">Início</a></li>
+                    <li aria-hidden="true">›</li>
+                    <li aria-current="page">Calculadora de preço</li>
+                </ol>
+            </nav>
+            <h1 class="mt-4 text-4xl md:text-5xl font-serif text-balance">Calculadora de preço de doces e bolos</h1>
+            <p class="mt-4 text-lg text-charcoal-light max-w-3xl">
+                Descubra quanto cobrar por unidade seguindo o método de formação de preço do Sebrae: ingredientes, embalagem, o seu tempo, custos fixos, impostos, taxas e a margem de lucro que você quer.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2">
+                <span class="badge">Grátis</span>
+                <span class="badge">Sem cadastro</span>
+                <span class="badge">Seus números ficam no seu aparelho</span>
+            </div>
+            <noscript>
+                <p class="mt-6 calc-note">A calculadora precisa de JavaScript ativado. Mais abaixo explicamos o método passo a passo para você fazer a conta no papel.</p>
+            </noscript>
+        </section>
+
+        <!-- Calculator -->
+        <section class="max-w-6xl mx-auto px-5 mt-10 grid lg:grid-cols-5 gap-8 items-start">
+            <form id="calculadora" class="lg:col-span-3 flex flex-col gap-6" novalidate autocomplete="off">
+                <div class="calc-block"><fieldset class="calc-fieldset">
+                    <legend class="calc-legend"><span class="step-number !w-8 !h-8 !text-base">1</span> A receita</legend>
+
+                    <div class="calc-field">
+                        <label for="ingredientes">Quanto gastou de ingredientes na receita</label>
+                        <div class="calc-input"><span>R$</span><input id="ingredientes" type="text" inputmode="decimal" placeholder="30,00" aria-describedby="ingredientes-ajuda ingredientes-erro"></div>
+                        <p id="ingredientes-ajuda" class="calc-help">Some só o que usou da receita inteira, não o pacote todo.</p>
+                        <p id="ingredientes-erro" class="calc-error" hidden></p>
+                    </div>
+
+                    <div class="calc-field">
+                        <label for="rendimento">Quantas unidades a receita rende</label>
+                        <div class="calc-input"><input id="rendimento" type="text" inputmode="numeric" placeholder="50" aria-describedby="rendimento-ajuda rendimento-erro"><span>un.</span></div>
+                        <p id="rendimento-ajuda" class="calc-help">Unidades boas para vender.</p>
+                        <p id="rendimento-erro" class="calc-error" hidden></p>
+                    </div>
+
+                    <div class="calc-field">
+                        <span class="calc-label" id="tempo-label">Tempo para fazer a receita inteira</span>
+                        <div class="grid grid-cols-2 gap-3" role="group" aria-labelledby="tempo-label">
+                            <div class="calc-input"><input id="tempoHoras" type="text" inputmode="numeric" placeholder="2" aria-label="Horas" aria-describedby="tempo-ajuda tempo-erro"><span>h</span></div>
+                            <div class="calc-input"><input id="tempoMinutos" type="text" inputmode="numeric" placeholder="0" aria-label="Minutos" aria-describedby="tempo-ajuda tempo-erro"><span>min</span></div>
+                        </div>
+                        <p id="tempo-ajuda" class="calc-help">Do início até a limpeza.</p>
+                        <p id="tempo-erro" class="calc-error" hidden></p>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 gap-x-4">
+                        <div class="calc-field">
+                            <label for="embalagem">Embalagem por unidade <span class="calc-optional">(opcional)</span></label>
+                            <div class="calc-input"><span>R$</span><input id="embalagem" type="text" inputmode="decimal" placeholder="0,15" aria-describedby="embalagem-ajuda embalagem-erro"></div>
+                            <p id="embalagem-ajuda" class="calc-help">Forminha, caixa, fita, etiqueta.</p>
+                            <p id="embalagem-erro" class="calc-error" hidden></p>
+                        </div>
+                        <div class="calc-field">
+                            <label for="perda">Perda <span class="calc-optional">(opcional)</span></label>
+                            <div class="calc-input"><input id="perda" type="text" inputmode="decimal" placeholder="0" aria-describedby="perda-ajuda perda-erro"><span>%</span></div>
+                            <p id="perda-ajuda" class="calc-help">Massa que fica na tigela, doce que quebra, erro.</p>
+                            <p id="perda-erro" class="calc-error" hidden></p>
+                        </div>
+                    </div>
+                </fieldset></div>
+
+                <div class="calc-block"><fieldset class="calc-fieldset">
+                    <legend class="calc-legend"><span class="step-number !w-8 !h-8 !text-base">2</span> Seu negócio no mês</legend>
+
+                    <div class="calc-field">
+                        <label class="flex items-center gap-3 cursor-pointer">
+                            <input id="isMei" type="checkbox" checked class="w-5 h-5 accent-terracota">
+                            <span>Sou MEI</span>
+                        </label>
+                    </div>
+
+                    <div class="calc-field" data-show-when="mei">
+                        <label for="das">Valor do DAS por mês</label>
+                        <div class="calc-input"><span>R$</span><input id="das" type="text" inputmode="decimal" value="82,05" aria-describedby="das-ajuda das-erro"></div>
+                        <p id="das-ajuda" class="calc-help">2026: comércio/indústria R$ 82,05 · serviços R$ 86,05 · comércio e serviços R$ 87,05. Confira o seu no PGMEI.</p>
+                        <p id="das-erro" class="calc-error" hidden></p>
+                    </div>
+
+                    <div class="calc-field" data-show-when="nao-mei" hidden>
+                        <label for="aliquotaSimples">Alíquota do Simples Nacional</label>
+                        <div class="calc-input"><input id="aliquotaSimples" type="text" inputmode="decimal" placeholder="6" aria-describedby="aliquotaSimples-ajuda aliquotaSimples-erro"><span>%</span></div>
+                        <p id="aliquotaSimples-ajuda" class="calc-help">Pergunte ao seu contador.</p>
+                        <p id="aliquotaSimples-erro" class="calc-error" hidden></p>
+                    </div>
+
+                    <div class="calc-field">
+                        <label for="custosFixos">Custos fixos do mês</label>
+                        <div class="calc-input"><span>R$</span><input id="custosFixos" type="text" inputmode="decimal" placeholder="400,00" aria-describedby="custosFixos-ajuda custosFixos-erro"></div>
+                        <p id="custosFixos-ajuda" class="calc-help">Aluguel, luz, gás, água, internet, celular, mensalidades. Sem o DAS.</p>
+                        <p id="custosFixos-erro" class="calc-error" hidden></p>
+                    </div>
+
+                    <div class="calc-field">
+                        <label for="faturamento">Quanto você vende, ou quer vender, por mês</label>
+                        <div class="calc-input"><span>R$</span><input id="faturamento" type="text" inputmode="decimal" placeholder="4.000,00" aria-describedby="faturamento-ajuda faturamento-erro"></div>
+                        <p id="faturamento-ajuda" class="calc-help">Média dos últimos meses. Começando? Simule sua expectativa.</p>
+                        <p id="faturamento-erro" class="calc-error" hidden></p>
+                    </div>
+
+                    <div class="grid sm:grid-cols-2 gap-x-4">
+                        <div class="calc-field">
+                            <label for="salario">Quanto quer ganhar por mês</label>
+                            <div class="calc-input"><span>R$</span><input id="salario" type="text" inputmode="decimal" placeholder="2.000,00" aria-describedby="salario-ajuda salario-erro"></div>
+                            <p id="salario-ajuda" class="calc-help">Seu salário, não o lucro do negócio.</p>
+                            <p id="salario-erro" class="calc-error" hidden></p>
+                        </div>
+                        <div class="calc-field">
+                            <label for="horasSemana">Horas por semana na produção</label>
+                            <div class="calc-input"><input id="horasSemana" type="text" inputmode="decimal" placeholder="28" aria-describedby="horasSemana-ajuda horasSemana-erro"><span>h</span></div>
+                            <p id="horasSemana-ajuda" class="calc-help">Só produção.</p>
+                            <p id="horasSemana-erro" class="calc-error" hidden></p>
+                        </div>
+                    </div>
+                </fieldset></div>
+
+                <div class="calc-block"><fieldset class="calc-fieldset">
+                    <legend class="calc-legend"><span class="step-number !w-8 !h-8 !text-base">3</span> A venda</legend>
+
+                    <div class="grid sm:grid-cols-2 gap-x-4">
+                        <div class="calc-field">
+                            <label for="margem">Margem de lucro desejada</label>
+                            <div class="calc-input"><input id="margem" type="text" inputmode="decimal" placeholder="Ex.: 15" aria-describedby="margem-ajuda margem-erro"><span>%</span></div>
+                            <p id="margem-ajuda" class="calc-help">Quanto do preço sobra para o negócio crescer.</p>
+                            <p id="margem-erro" class="calc-error" hidden></p>
+                        </div>
+                        <div class="calc-field">
+                            <label for="taxaCartao">Taxa de cartão ou app <span class="calc-optional">(opcional)</span></label>
+                            <div class="calc-input"><input id="taxaCartao" type="text" inputmode="decimal" placeholder="0" aria-describedby="taxaCartao-ajuda taxaCartao-erro"><span>%</span></div>
+                            <p id="taxaCartao-ajuda" class="calc-help">Maquininha, iFood, link de pagamento.</p>
+                            <p id="taxaCartao-erro" class="calc-error" hidden></p>
+                        </div>
+                    </div>
+
+                    <div class="calc-field">
+                        <label for="precoAtual">Quanto você cobra hoje por unidade <span class="calc-optional">(opcional)</span></label>
+                        <div class="calc-input"><span>R$</span><input id="precoAtual" type="text" inputmode="decimal" placeholder="1,80" aria-describedby="precoAtual-ajuda precoAtual-erro"></div>
+                        <p id="precoAtual-ajuda" class="calc-help">Mostramos se ele dá lucro ou prejuízo.</p>
+                        <p id="precoAtual-erro" class="calc-error" hidden></p>
+                    </div>
+                </fieldset></div>
+            </form>
+
+            <!-- Result -->
+            <aside id="resultado" class="lg:col-span-2 lg:sticky lg:top-24 calc-result" aria-live="polite">
+                <div id="res-vazio">
+                    <p class="text-sm font-semibold uppercase tracking-wide text-terracota">Preço sugerido</p>
+                    <p class="mt-2 text-5xl font-serif text-cinza-400">R$ —</p>
+                    <p class="mt-4 text-charcoal-light">Preencha os campos para ver o preço por unidade, para onde vai cada real e se o preço que você cobra hoje dá lucro.</p>
+                </div>
+
+                <div id="res-erro" hidden>
+                    <p class="text-sm font-semibold uppercase tracking-wide text-terracota">Preço sugerido</p>
+                    <p class="mt-2 text-5xl font-serif text-cinza-400">R$ —</p>
+                    <p id="res-erro-msg" class="mt-4 calc-note calc-note--alerta"></p>
+                </div>
+
+                <div id="res-ok" hidden>
+                    <p class="text-sm font-semibold uppercase tracking-wide text-terracota">Preço sugerido por unidade</p>
+                    <p id="res-preco" class="mt-2 text-5xl font-serif"></p>
+                    <p class="mt-1 text-charcoal-light">Receita inteira: <strong id="res-receita"></strong></p>
+
+                    <div id="res-hoje" class="mt-5 calc-note" hidden></div>
+
+                    <p class="mt-6 font-semibold">Para onde vai cada real</p>
+                    <div class="dre-bar mt-2" aria-hidden="true">
+                        <span data-dre="ingredientes" class="bg-terracota"></span>
+                        <span data-dre="embalagem" class="bg-terracota-dark"></span>
+                        <span data-dre="maoDeObra" class="bg-oliva"></span>
+                        <span data-dre="fixos" class="bg-charcoal-light"></span>
+                        <span data-dre="impostosTaxas" class="bg-cinza-400"></span>
+                        <span data-dre="lucro" class="bg-amarelo"></span>
+                    </div>
+                    <ul class="mt-3 flex flex-col gap-1 text-sm">
+                        <li class="dre-row"><span class="dre-dot bg-terracota"></span>Ingredientes<span data-dre-valor="ingredientes"></span></li>
+                        <li class="dre-row"><span class="dre-dot bg-terracota-dark"></span>Embalagem<span data-dre-valor="embalagem"></span></li>
+                        <li class="dre-row"><span class="dre-dot bg-oliva"></span>Seu trabalho<span data-dre-valor="maoDeObra"></span></li>
+                        <li class="dre-row"><span class="dre-dot bg-charcoal-light"></span>Custos fixos e DAS<span data-dre-valor="fixos"></span></li>
+                        <li class="dre-row"><span class="dre-dot bg-cinza-400"></span>Impostos e taxas<span data-dre-valor="impostosTaxas"></span></li>
+                        <li class="dre-row"><span class="dre-dot bg-amarelo"></span>Lucro<span data-dre-valor="lucro"></span></li>
+                    </ul>
+
+                    <p id="res-pe" class="mt-5 text-sm text-charcoal-light"></p>
+                    <p id="res-markup" class="mt-1 text-sm text-cinza-600"></p>
+                    <p class="mt-5 text-sm text-charcoal-light">Compare com os preços da sua região. Se ficou bem acima, reveja custos ou margem antes de baixar o preço.</p>
+                </div>
+
+                <div class="mt-6 pt-6 border-t border-cinza-200">
+                    <p class="font-semibold">Calcule todos os seus produtos</p>
+                    <p class="mt-1 text-sm text-charcoal-light">Na Kozy, o custo dos ingredientes se atualiza sozinho a cada compra.</p>
+                    <a id="cta-calculadora" href="https://app.kozy.com.br/auth/sign-up?utm_source=calculator&amp;utm_medium=cta" class="btn-primary w-full mt-4">Testar 7 dias grátis</a>
+                </div>
+            </aside>
+        </section>
+
+        <!-- Sticky price on mobile -->
+        <a id="barra-preco" href="#resultado" class="calc-sticky lg:hidden" hidden>
+            <span>Preço sugerido</span>
+            <strong id="barra-preco-valor"></strong>
+            <span class="underline">Ver detalhes</span>
+        </a>
+
+        <!-- Method -->
+        <section id="como-calcular" class="max-w-3xl mx-auto px-5 mt-20 calc-prose">
+            <h2 class="text-3xl md:text-4xl font-serif text-balance">Como calcular o preço de um doce</h2>
+            <p>A calculadora segue o método de formação de preço do Sebrae, o <strong>markup</strong>. Para fazer a conta no papel:</p>
+            <ol>
+                <li><strong>Custo dos ingredientes por unidade.</strong> Divida o que gastou na receita pelo rendimento. Se há perda, divida também por (1 − % de perda): com 20% de perda, o custo sobe 25%.</li>
+                <li><strong>Some a embalagem</strong> de cada unidade. Para o Sebrae, embalagem é matéria-prima.</li>
+                <li><strong>Some o seu tempo.</strong> Valor da hora = quanto quer ganhar por mês ÷ horas trabalhadas no mês. Multiplique pelo tempo que cada unidade leva.</li>
+                <li><strong>Calcule os percentuais sobre o preço:</strong> custos fixos do mês (com o DAS, se for MEI) ÷ faturamento; taxas de cartão ou app; alíquota do Simples, se não for MEI; e a margem de lucro desejada.</li>
+                <li><strong>Aplique o markup:</strong> preço = custo da unidade ÷ (1 − soma dos percentuais). A soma precisa ficar abaixo de 100%.</li>
+                <li><strong>Compare com o mercado.</strong> O markup dá o preço que cobre tudo; o mercado diz se ele é competitivo.</li>
+            </ol>
+        </section>
+
+        <!-- Example -->
+        <section id="exemplo" class="max-w-3xl mx-auto px-5 mt-16 calc-prose">
+            <h2 class="text-3xl font-serif">Exemplo: brigadeiro</h2>
+            <p>Uma receita com R$ 30 de ingredientes rende 50 brigadeiros, leva 2 horas e tem 5% de perda. Forminha: R$ 0,15. A confeiteira é MEI, tem R$ 480 de custos fixos com o DAS (valores ilustrativos), vende R$ 4.000 por mês, quer ganhar R$ 2.000 trabalhando 120 horas no mês, paga 3% de maquininha e quer 15% de margem.</p>
+            <div class="overflow-x-auto">
+                <table>
+                    <thead><tr><th scope="col">Item</th><th scope="col">Por unidade</th></tr></thead>
+                    <tbody>
+                        <tr><td>Ingredientes com perda (R$ 0,60 ÷ 0,95)</td><td>R$ 0,63</td></tr>
+                        <tr><td>Embalagem</td><td>R$ 0,15</td></tr>
+                        <tr><td>Seu trabalho (2,4 min a R$ 16,67/h)</td><td>R$ 0,67</td></tr>
+                        <tr><td><strong>Custo da unidade</strong></td><td><strong>R$ 1,45</strong></td></tr>
+                        <tr><td>Custos fixos 12% + cartão 3% + margem 15%</td><td>divide por 0,70</td></tr>
+                        <tr><td><strong>Preço sugerido</strong></td><td><strong>R$ 2,07</strong></td></tr>
+                        <tr><td>Cobrando hoje R$ 1,80</td><td>lucro de só R$ 0,08 (4,5%)</td></tr>
+                        <tr><td>Cobrando hoje R$ 1,50</td><td>prejuízo de R$ 0,17 por unidade</td></tr>
+                    </tbody>
+                </table>
+            </div>
+            <p>Para pagar os R$ 480 de custos fixos só com brigadeiro, a R$ 2,07, seriam cerca de 858 unidades no mês.</p>
+        </section>
+
+        <!-- Glossary -->
+        <section id="glossario" class="max-w-3xl mx-auto px-5 mt-16 calc-prose">
+            <h2 class="text-3xl font-serif">Glossário</h2>
+            <dl>
+                <dt>Markup</dt>
+                <dd>Número que, multiplicado pelo custo, dá o preço de venda. No exemplo, 1,43.</dd>
+                <dt>Margem de lucro</dt>
+                <dd>Parte do preço que sobra como lucro depois de pagar tudo. É calculada sobre o preço, não sobre o custo.</dd>
+                <dt>Custo fixo</dt>
+                <dd>Gasto que existe mesmo se você não vender nada no mês: aluguel, internet, DAS do MEI.</dd>
+                <dt>Custo variável</dt>
+                <dd>Gasto que cresce com cada unidade produzida ou vendida: ingredientes, embalagem, taxa de cartão.</dd>
+                <dt>Ponto de equilíbrio</dt>
+                <dd>Quantidade que você precisa vender para pagar os custos fixos do mês, sem lucro nem prejuízo.</dd>
+            </dl>
+        </section>
+
+        <!-- FAQ -->
+        <section id="duvidas" class="max-w-3xl mx-auto px-5 mt-16">
+            <h2 class="text-3xl font-serif">Dúvidas frequentes</h2>
+            <div class="mt-6 flex flex-col gap-3">
+                <details class="faq-item">
+                    <summary>A calculadora é gratuita?</summary>
+                    <p>Sim, e não precisa de cadastro. O cálculo é feito no seu próprio aparelho: os números que você digita não são enviados para a Kozy.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Por que meu salário entra no preço?</summary>
+                    <p>Porque o seu tempo é custo. O Sebrae orienta incluir o pagamento pelo seu trabalho no preço. A calculadora transforma quanto você quer ganhar por mês em valor por hora e cobra o tempo que cada unidade leva.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Sou MEI. Como entra o imposto?</summary>
+                    <p>Para o MEI, o imposto é o DAS, um valor fixo por mês. Por isso ele entra junto com os custos fixos, e não como porcentagem sobre a venda. O valor muda todo ano e depende da atividade: confira no PGMEI.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Qual margem de lucro devo usar?</summary>
+                    <p>Não existe um número certo: o Sebrae não define uma margem padrão. A margem é o que sobra para o negócio crescer e enfrentar imprevistos. Defina a sua e compare o preço final com o praticado na sua região.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Ainda não vendo nada. O que coloco em faturamento?</summary>
+                    <p>Simule quanto você espera vender por mês. Se a expectativa for baixa demais para pagar os custos fixos, a calculadora avisa.</p>
+                </details>
+                <details class="faq-item">
+                    <summary>Qual a diferença entre markup e margem?</summary>
+                    <p>A margem é a parte do preço que vira lucro. O markup é o número pelo qual você multiplica o custo para chegar ao preço. Uma margem de 15% não significa somar 15% ao custo: o markup precisa cobrir também custos fixos, impostos e taxas.</p>
+                </details>
+            </div>
+        </section>
+
+        <!-- Sources -->
+        <section class="max-w-3xl mx-auto px-5 mt-16 text-sm text-charcoal-light">
+            <h2 class="text-xl font-serif text-charcoal">Fontes</h2>
+            <p class="mt-2">Método baseado nas orientações do Sebrae para formação de preço. A Kozy não tem vínculo com o Sebrae.</p>
+            <ul class="mt-2 list-disc pl-5 flex flex-col gap-1">
+                <li><a class="underline" href="https://bibliotecas.sebrae.com.br/chronus/ARQUIVOS_CHRONUS/bds/bds.nsf/45ee582085782cbc0f452cce55d360d4/$File/19655.pdf" rel="noopener">Sebrae/BA — Guia prático de precificação para os pequenos negócios</a></li>
+                <li><a class="underline" href="https://sebrae.com.br/content/dam/portal-sebrae/na/midias/documentos/pdfs/ebook_precificacao-mei-contrata-brasil.pdf" rel="noopener">Sebrae/MS — Precificação: a chave para o sucesso nas vendas (MEI)</a></li>
+                <li><a class="underline" href="https://respostas.sebrae.com.br/pergunta/como-calcular-o-preco-de-venda-do-produto-e-servico/" rel="noopener">Sebrae Respostas — Como calcular o preço de venda</a></li>
+            </ul>
+        </section>
+
+        <!-- Final CTA -->
+        <section class="mt-20 py-16 md:py-20 bg-creme-dark">
+            <div class="max-w-3xl mx-auto px-5 text-center">
+                <h2 class="text-3xl md:text-4xl font-serif text-balance">Tem mais de um produto?</h2>
+                <p class="mt-4 text-lg text-charcoal-light">A Kozy faz essa conta para todos eles, com ficha técnica, estoque e encomendas no mesmo lugar.</p>
+                <a href="/" class="btn-secondary mt-8">Conhecer a Kozy</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="bg-charcoal text-branco py-10">
+        <div class="max-w-6xl mx-auto px-5 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-cinza-400">
+            <p>&copy; 2026 Kozy · Misael Costa de Amorim Tecnologia · CNPJ 15.453.950/0001-49</p>
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2">
+                <a href="/" class="hover:text-branco">Início</a>
+                <a href="/#precos" class="hover:text-branco">Preços</a>
+                <a href="https://app.kozy.com.br/legal/termos" class="hover:text-branco">Termos</a>
+                <a href="https://app.kozy.com.br/legal/privacidade" class="hover:text-branco">Privacidade</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/main.js"></script>
+    <script type="module" src="/calculadora-de-preco/form.js"></script>
+</body>
+</html>

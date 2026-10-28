@@ -51,6 +51,10 @@ Kozy é uma aplicação web (SaaS) que centraliza a gestão de um negócio de pr
 - Identificação de produtos mais vendidos
 - Visualização de perdas e desperdícios
 
+## Calculadora de preço gratuita
+
+https://kozy.com.br/calculadora-de-preco/ calcula o preço de venda de um produto sem cadastro, pelo método de markup do Sebrae: ingredientes (com perda), embalagem, mão de obra (salário desejado ÷ horas), custos fixos e DAS do MEI como % do faturamento, taxas de cartão, alíquota do Simples (fora do MEI) e margem de lucro sobre o preço. Mostra a composição do preço, o lucro ou prejuízo do preço atual e o ponto de equilíbrio. O cálculo roda no navegador; nada é enviado.
+
 ## Público-alvo detalhado
 
 ### Quem usa o Kozy?

@@ -19,6 +19,10 @@ Pequenas empreendedoras do setor alimentício no Brasil: confeiteiras, doceiras,
 
 Empreendedoras de alimentos perdem tempo e dinheiro gerenciando seus negócios com planilhas, cadernos e mensagens no WhatsApp. Kozy centraliza custos, estoque e encomendas em um único lugar, proporcionando clareza financeira e operacional.
 
+## Ferramenta gratuita
+
+- Calculadora de preço para confeitaria (sem cadastro, método Sebrae): https://kozy.com.br/calculadora-de-preco/
+
 ## Preços
 
 - Iniciante: R$ 39/mês (gestão completa + importação de nota fiscal por IA)
